@@ -21,6 +21,9 @@ h1 a {
 #searchBox {
   float: right;
   background: linear-gradient(#e4f2b9, #87e953);
+  background: -webkit-linear-gradient(#e4f2b9, #87e953);
+  background: -o-linear-gradient(#e4f2b9, #87e953);
+  background: -moz-linear-gradient(#e4f2b9, #87e953);
   width: 400px;
   height: 5 0px;
   padding: 20px 20px 0 20px;
@@ -47,6 +50,9 @@ h1 a {
 #menu {
   height: 70px;
   background: linear-gradient(#f8f594, #d5d533);
+  background: -webkit-linear-gradient(#e4f2b9, #87e953);
+  background: -o-linear-gradient(#e4f2b9, #87e953);
+  background: -moz-linear-gradient(#e4f2b9, #87e953);
   padding: 7px 0;
 }
 ul {
@@ -76,6 +82,9 @@ ul {
 }
 #introduction {
   background: linear-gradient(#e5f2bb, #b7e952);
+  background: -webkit-linear-gradient(#e4f2b9, #87e953);
+  background: -o-linear-gradient(#e4f2b9, #87e953);
+  background: -moz-linear-gradient(#e4f2b9, #87e953);
   padding: 30px;
   margin: 16px 0;
 }
@@ -88,4 +97,49 @@ ul {
   font-size: 25px;
   color: #628f19;
   text-align: justify;
+}
+.sidebar {
+  height: 500px;
+  width: 400px;
+  border: 1px solid #baf46f;
+  border-radius: 20px;
+  padding: 10px 30px;
+}
+.sidebar h3 {
+  color: #b314db;
+  font-size: 30px;
+}
+.sidebar ul {
+  padding-top: 8px;
+}
+
+.sidebar ul li {
+  padding: 9px 0 9px 70px;
+}
+.sidebar ul li a {
+  text-decoration: none;
+  font-size: 17px;
+  color: #5d12e7;
+}
+.sidebar ul li a :hover,
+.sidebar ul li a.active {
+  text-decoration: none;
+  color: #b314db;
+  font-size: 23px;
+  font-weight: bold;
+}
+#leftsidebar {
+  float: left;
+}
+#rightsidebar {
+  float: right;
+}
+.footer {
+  height: 60px;
+  background: linear-gradient(#f6f390, #d5d533);
+  background: -webkit-linear-gradient(#e4f2b9, #87e953);
+  background: -o-linear-gradient(#e4f2b9, #87e953);
+  background: -moz-linear-gradient(#e4f2b9, #87e953);
+  padding: 10px 30px;
+  margin-top: 15px;
 }
