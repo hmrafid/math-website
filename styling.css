@@ -1,0 +1,91 @@
+#container {
+  width: 1000px;
+  /* border: 1px solid grey; */
+  margin: 0 auto;
+}
+
+#header {
+  height: 100px;
+  padding: 10px 0;
+}
+#brand {
+  float: left;
+}
+h1 a {
+  font-size: 50px;
+  font-weight: 100;
+  color: #861bbf;
+  text-decoration: none;
+}
+
+#searchBox {
+  float: right;
+  background: linear-gradient(#e4f2b9, #87e953);
+  width: 400px;
+  height: 5 0px;
+  padding: 20px 20px 0 20px;
+  margin-top: 20px;
+}
+.text {
+  float: left;
+  width: 200px;
+  padding: 5px;
+  font-size: 15px;
+  color: #e36a0c;
+}
+.submit {
+  float: right;
+  padding: 5px;
+  font-weight: bold;
+  color: white;
+  background-color: #861bbf;
+  font-size: 15px;
+}
+.clear {
+  clear: both;
+}
+#menu {
+  height: 70px;
+  background: linear-gradient(#f8f594, #d5d533);
+  padding: 7px 0;
+}
+ul {
+  list-style: none;
+}
+#menu ul li {
+  float: left;
+  padding: 0 30px;
+  height: 30px;
+  border-right: 1px solid #5d12e7;
+}
+#menu ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 17px;
+  color: #5d12e7;
+  line-height: 30px;
+}
+#menu ul li:last-child {
+  border-right: none;
+}
+#menu ul li:hover,
+#menu ul li a.active {
+  font-size: 20px;
+  font-weight: bold;
+  color: #c34fdb;
+}
+#introduction {
+  background: linear-gradient(#e5f2bb, #b7e952);
+  padding: 30px;
+  margin: 16px 0;
+}
+#introduction h3 {
+  font-size: 45px;
+  color: #316901;
+  font-weight: normal;
+}
+#introduction p {
+  font-size: 25px;
+  color: #628f19;
+  text-align: justify;
+}
